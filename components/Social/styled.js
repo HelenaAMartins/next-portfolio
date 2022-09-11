@@ -8,10 +8,16 @@ export const SocialList = styled.ul`
 `;
 
 export const SocialItem = styled.li`
-  height: 50px;
-  width: 50px;
-  background-color: ${colors.grey};
-  border-radius: 50%;
-`;
+  background-color: ${colors.white};
+  border: 1px solid ${colors.purple};
+  border-radius: 10px;
+ 
+  `;
 
-export const SocialLink = styled.a``;
+export const SocialLink = styled.a`
+height: 35px;
+width: 35px;
+display: flex;
+align-items: center;
+justify-content: center;
+`;

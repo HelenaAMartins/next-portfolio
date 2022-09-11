@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components"
 
 export default createGlobalStyle`
   :root {
-    --font-default: sans-serif
+    --font-default: 'Poppins', sans-serif;
   }
   *,
   *::after,
@@ -15,6 +15,7 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
   html {
+    font-size: 10px;
     scroll-behavior: smooth;
     text-size-adjust: 100%;
   }
