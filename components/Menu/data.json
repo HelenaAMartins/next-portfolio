@@ -1,0 +1,23 @@
+[
+  {
+    "link":"",
+    "name": "about" ,
+    "target": "_self"
+  },
+  {
+    "link":"",
+    "name": "experience" ,
+    "target": "_self"
+  },
+  {
+    "link":"",
+    "name": "projects" ,
+    "target": "_self"
+  },
+  {
+    "link":"",
+    "name": "contact" ,
+    "target": "_self"
+  }
+
+]
