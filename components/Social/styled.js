@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { colors } from "../../styles/variables";
 
 export const SocialList = styled.ul`
   display: flex;
@@ -8,8 +7,7 @@ export const SocialList = styled.ul`
 `;
 
 export const SocialItem = styled.li`
-  background-color: ${colors.white};
-  border: 1px solid ${colors.purple};
+  border: 1px solid ${({theme}) => theme.colors.warning};
   border-radius: 10px;
  
   `;

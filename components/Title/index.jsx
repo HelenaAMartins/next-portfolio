@@ -1,7 +1,7 @@
 import * as Styled from "./styled";
 
-const Title = ({ title, subtitle, textColor, as, align }) => (
-  <Styled.Wrapper align={align} textColor={textColor}>
+const Title = ({ title, subtitle, as, textAlign, align, white }) => (
+  <Styled.Wrapper textAlign={textAlign} align={align} white={white}>
     <Styled.Title as={as} >
       {title}
     </Styled.Title>

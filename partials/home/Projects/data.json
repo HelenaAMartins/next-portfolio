@@ -1,0 +1,41 @@
+[
+  {
+    "thumbnail": "/images/experience-magna.jpg",
+    "title": "Cora Application Test",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam officia dolorem, dolor perspiciatis.",
+    "previewLink": "https://github.com/HelenaAMartins",
+    "repoLink": "https://github.com/HelenaAMartins"
+  },
+  {
+    "thumbnail": "/images/experience-magna.jpg",
+    "title": "Drinks App",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam officia dolorem, dolor perspiciatis.",
+    "previewLink": "https://github.com/HelenaAMartins",
+    "repoLink": "https://github.com/HelenaAMartins"
+  },
+  {
+    "thumbnail": "/images/experience-magna.jpg",
+    "title": "Testando",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam officia dolorem, dolor perspiciatis.",
+    "previewLink": "https://github.com/HelenaAMartins",
+    "repoLink": "https://github.com/HelenaAMartins"
+  },
+  {
+    "thumbnail": "/images/experience-magna.jpg",
+    "title": "Mais um teste",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam officia dolorem, dolor perspiciatis.",
+    "previewLink": "https://github.com/HelenaAMartins",
+    "repoLink": "https://github.com/HelenaAMartins"
+  },
+  {
+    "thumbnail": "/images/experience-magna.jpg",
+    "title": "Último teste",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam officia dolorem, dolor perspiciatis.",
+    "previewLink": "https://github.com/HelenaAMartins",
+    "repoLink": "https://github.com/HelenaAMartins"
+  }
+
+]
+
+
+

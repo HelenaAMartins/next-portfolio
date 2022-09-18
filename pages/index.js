@@ -1,13 +1,16 @@
-import Link from "../components/Link";
-import Section from "../components/Section";
-import Title from "../components/Title";
-import About from "../partials/home/About";
+import Layout from "../components/Layout";
+import Experiences from "../partials/home/Experiences";
+import GetInTouch from "../partials/home/GetInTouch";
+import Hero from "../partials/home/Hero";
+import Projects from "../partials/home/Projects";
 
-export default function HomePage() {
-  return (
-    <Section>
-      <Title as="h5" textColor="pink"> Alura Cases - Home</Title>
-      <About />
-    </Section>
-  );
-}
+const HomePage = () => (
+  <Layout>
+    <Hero />
+    <Projects />
+    <Experiences />
+    <GetInTouch />
+  </Layout>
+);
+
+export default HomePage;

@@ -1,13 +1,14 @@
 import * as Styled from "./styled";
 import social from "./data.json";
 import { Github, Linkedin, Twitter } from "../../icons";
-import { colors } from "../../styles/variables";
+import { useTheme } from "styled-components";
 
 const Social = () => {
+  const {colors} = useTheme()
   const icons = {
-    Linkedin: <Linkedin color={colors.purple}/>,
-    Github: <Github color={colors.purple}/>,
-    Twitter: <Twitter color={colors.purple}/>,
+    Linkedin: <Linkedin color={colors.warning}/>,
+    Github: <Github color={colors.warning}/>,
+    Twitter: <Twitter color={colors.warning}/>,
   };
 
   return (

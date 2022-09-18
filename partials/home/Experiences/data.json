@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2021 - 2022",
+    "thumbnail": "/images/experience-magna.jpg",
+    "role": "Junior Front-end Developer",
+    "place": "Outroll, Melbourne - Australia (remote)"
+  },
+  {
+    "date": "2022 - Present",
+    "thumbnail": "/images/experience-magna.jpg",
+    "role": "Front-end Developer (Volunteer)",
+    "place": "Lacrei, São Paulo - SP (remote)"
+  },
+  {
+    "date": "2022 - Present",
+    "thumbnail": "/images/experience-magna.jpg",
+    "role": "Junior Front-end Developer",
+    "place": "Magna, São Paulo - SP (hibrid)"
+  }
+]

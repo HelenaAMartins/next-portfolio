@@ -1,9 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
 export default createGlobalStyle`
-  :root {
-    --font-default: 'Poppins', sans-serif;
-  }
   *,
   *::after,
   *::before {
@@ -23,7 +20,8 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
   body {
-    font-family: var(--font-default);
+    background-color: ${({theme}) => theme.colors.bg};
+    font-family: ${({theme}) => theme.fontFamily};
     font-size: 16px;
     overflow-x: hidden;
   }

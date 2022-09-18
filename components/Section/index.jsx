@@ -1,8 +1,8 @@
 import Container from "../Container";
 import * as Styled from "./styled";
 
-const Section = ({ children, bgColor }) => (
-  <Styled.Section bgColor={bgColor}>
+const Section = ({ children, light }) => (
+  <Styled.Section light={light}>
     <Container>{children}</Container>
   </Styled.Section>
 );
