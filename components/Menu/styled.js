@@ -23,4 +23,8 @@ export const MenuLink = styled.a`
     color: ${({ theme }) => theme.colors.primary};
     opacity: 1;
   }
+
+  &:active {
+    border-bottom: 2px solid ${({theme}) => theme.colors.primary};
+  }
 `;

@@ -6,15 +6,24 @@ const ExperienceCard = ({ data }) => {
   const { thumbnail, title, description, previewLink, repoLink } = data;
   return (
     <Styled.ProjectWrapper>
-      <Image src={thumbnail} layout="fixed" width="400" height="400" />
+      <Styled.Figure>
+
+      <Image src={thumbnail} layout="responsive" width="400" height="350"/>
+      </Styled.Figure>
       <Styled.InfoWrapper>
         <Styled.Title>{`${title}`}</Styled.Title>
         <Styled.Description>{description}</Styled.Description>
-        <Styled.ButtonsWrapper>
-          <Button small as="a" href={previewLink} variant="dark">Preview</Button>
-          <Button small as="a" href={repoLink}>Code Repo</Button>
-        </Styled.ButtonsWrapper>
       </Styled.InfoWrapper>
+        <Styled.ButtonsWrapper>
+          <a href={previewLink} target="_blank" alt={`click here to see ${title} preview`}>
+            <Button small>Preview</Button>
+          </a>
+          <a href={repoLink} target="_blank" alt={`click here to see ${title} repository`}>
+            <Button small dark>
+              Code Repo
+            </Button>
+          </a>
+        </Styled.ButtonsWrapper>
     </Styled.ProjectWrapper>
   );
 };

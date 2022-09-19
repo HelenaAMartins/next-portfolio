@@ -18,5 +18,18 @@ export const Projects = styled.section`
 `;
 
 export const Wrapper = styled.div`
+  .slick-track {
+    display: flex !important;
+    grid-gap: 20px;
+  }
 
+  .slick-slide {
+    display: flex;
+    height: inherit !important;
+
+    & > div {
+      height: 100%;
+      width: 100%;
+    }
+  }
 `;

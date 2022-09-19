@@ -9,6 +9,7 @@ export const theme = {
     
     offWhite: "#f8f8f2",
     highlight: "#ffb86c",
+    highlightHover: "#ed9334",
     white: "#FFFFFF",
     black: "#000000",
     danger: "#ff5555",
@@ -21,12 +22,12 @@ export const theme = {
 
     button: {
       default: "#50fa7b",
-      hover: "#8be9fd",
+      hover: "#2bd556",
       color: "#282a36",
     },
     buttonDark: {
       default: "#282a36",
-      hover: "#282a36",
+      hover: "#3a3a3c",
       color: "#f8f8f2",
     },
   },

@@ -1,7 +1,4 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
+import Carousel from "../../../components/Carousel";
 import Container from "../../../components/Container";
 import ProjectsCard from "../../../components/ProjectsCard";
 import Title from "../../../components/Title";
@@ -12,24 +9,42 @@ const Projects = () => (
   <Styled.Projects>
     <Container>
       <Title
-      align="flex-start"
-      textAlign="left"
+        align="flex-start"
+        textAlign="left"
         title="My Projects"
-        subtitle="/* I'm always open to discussing about development or partnerships.*/"
+        subtitle="/* Access my Github repository for complete projects list. */"
       />
       <Styled.Wrapper>
-        <Slider
+        <Carousel
           autoplay={false}
           autoplaySpeed={5000}
           centerPadding="20px"
           dots
           slidesToScroll={3}
           slidesToShow={3}
+          responsive={[
+            
+            {
+              breakpoint: 1023,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ]}
         >
           {projects.map((item, id) => (
             <ProjectsCard data={item} key={`project-${id}`} />
           ))}
-        </Slider>
+        </Carousel>
       </Styled.Wrapper>
     </Container>
   </Styled.Projects>

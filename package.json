@@ -7,9 +7,10 @@
     "next": "^12.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.5",
     "react-slick": "^0.28.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5",
+    "zustand": "^4.1.1"
   },
   "scripts": {
     "dev": "next dev",

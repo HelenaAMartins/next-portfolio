@@ -15,4 +15,5 @@ export const ButtonSubtitle = styled.span`
 font-size: 1.6rem;
 font-weight: 200;
 margin-top: 20px;
+color: ${({theme}) => theme.colors.offWhite};
 `

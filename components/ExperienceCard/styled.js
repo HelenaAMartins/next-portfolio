@@ -33,8 +33,6 @@ export const Figure = styled.figure`
   height: ${({height}) => `${height}px` || 'auto'};
   overflow: hidden;
   width: ${({width}) => `${width}px` || 'auto'};
-
-  background-color: red;
 `;
 
 export const RolePlaceWrapper = styled.div`

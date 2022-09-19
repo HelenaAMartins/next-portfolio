@@ -2,35 +2,35 @@
   {
     "thumbnail": "/images/experience-magna.jpg",
     "title": "Cora Application Test",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam officia dolorem, dolor perspiciatis.",
+    "description": "Vanilla JS Front-end development project for Cora's Challenge.",
     "previewLink": "https://github.com/HelenaAMartins",
     "repoLink": "https://github.com/HelenaAMartins"
   },
   {
     "thumbnail": "/images/experience-magna.jpg",
     "title": "Drinks App",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam officia dolorem, dolor perspiciatis.",
+    "description": "React Js personal project, getting data from public drinks API.",
     "previewLink": "https://github.com/HelenaAMartins",
     "repoLink": "https://github.com/HelenaAMartins"
   },
   {
     "thumbnail": "/images/experience-magna.jpg",
-    "title": "Testando",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam officia dolorem, dolor perspiciatis.",
+    "title": "Password Generator",
+    "description": "React personal project using React.",
     "previewLink": "https://github.com/HelenaAMartins",
     "repoLink": "https://github.com/HelenaAMartins"
   },
   {
-    "thumbnail": "/images/experience-magna.jpg",
-    "title": "Mais um teste",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam officia dolorem, dolor perspiciatis.",
+    "thumbnail": "/images/react-pokelist.png",
+    "title": "React Pokelist",
+    "description": "React personal project getting data from Pokemon API.",
     "previewLink": "https://github.com/HelenaAMartins",
     "repoLink": "https://github.com/HelenaAMartins"
   },
   {
-    "thumbnail": "/images/experience-magna.jpg",
-    "title": "Último teste",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam officia dolorem, dolor perspiciatis.",
+    "thumbnail": "/images/vue-converter.png",
+    "title": "VUE Currency Converter",
+    "description": "VUE personal project which converts many currencies.",
     "previewLink": "https://github.com/HelenaAMartins",
     "repoLink": "https://github.com/HelenaAMartins"
   }

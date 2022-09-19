@@ -7,7 +7,7 @@ import * as Styled from "./styled";
 
 const GetInTouch = () => (
   <Section light>
-    <Title title="Get in touch!" subtitle="I'm always open to discussing about development or partnerships." white/>
+    <Title title="Get in touch!" subtitle="I'm always open to discussing about development or partnerships."/>
     <Styled.FormWrapper>
       <Styled.Form>
         <Input placeholder="Name" type="text" />
