@@ -4,6 +4,7 @@ import { device } from "../../../styles/breakpoints";
 export const Projects = styled.section`
   padding: 100px 0;
   position: relative;
+  
   &::before {
     background-color: ${({ theme }) => theme.colors.bgLight};
     bottom: 0;
