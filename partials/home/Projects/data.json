@@ -1,34 +1,34 @@
 [
   {
-    "thumbnail": "/images/experience-magna.jpg",
+    "thumbnail": "/images/projects/cora-test.png",
     "title": "Cora Application Test",
     "description": "Vanilla JS Front-end development project for Cora's Challenge.",
     "previewLink": "https://cora-test-helenaamartins.vercel.app",
     "repoLink": "https://github.com/HelenaAMartins/cora-test"
   },
   {
-    "thumbnail": "/images/experience-magna.jpg",
+    "thumbnail": "/images/projects/react-drinks.png",
     "title": "Drinks App",
     "description": "React Js personal project, getting data from public drinks API.",
     "previewLink": "https://react-drink-recipes.netlify.app",
     "repoLink": "https://github.com/HelenaAMartins/react-drinks-app"
   },
   {
-    "thumbnail": "/images/experience-magna.jpg",
+    "thumbnail": "/images/projects/password-generator.png",
     "title": "Password Generator",
     "description": "React personal project using React.",
     "previewLink": "https://react-password-generator-helenaamartins.vercel.app",
     "repoLink": "https://github.com/HelenaAMartins/react-password-generator"
   },
   {
-    "thumbnail": "/images/react-pokelist.png",
+    "thumbnail": "/images/projects/react-pokelist.png",
     "title": "React Pokelist",
     "description": "React personal project getting data from Pokemon API.",
     "previewLink": "https://react-pokelist.vercel.app",
     "repoLink": "https://github.com/HelenaAMartins/react-pokelist"
   },
   {
-    "thumbnail": "/images/vue-converter.png",
+    "thumbnail": "/images/projects/vue-converter.png",
     "title": "VUE Currency Converter",
     "description": "VUE personal project which converts many currencies.",
     "previewLink": "https://vue-currency-hm.netlify.app",

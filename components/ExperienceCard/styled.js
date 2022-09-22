@@ -9,7 +9,6 @@ flex-direction: column-reverse;
 grid-gap: 30px;
 align-items: center;
 justify-content: flex-start;
-grid-template-columns: 300px 150px auto;
 width: 100%;
 margin-bottom: 30px;
 padding: 25px 30px;
@@ -23,9 +22,14 @@ color: ${({theme}) => theme.colors.white};
 }
 
 @media ${device.tabletL}{
+  grid-template-columns: 165px 85px auto;
   display: grid;
   grid-gap: 60px;
   }
+/* @media ${device.tabletL}{
+  grid-template-columns: 300px 150px auto;
+  
+  } */
 `
 
 export const Date = styled.h4`
@@ -35,8 +39,11 @@ text-align: center;
 font-size: 2rem;
 
 @media ${device.tabletL}{
-  font-size: 3rem;
+  font-size: 2rem;
   }
+/* @media ${device.tabletL}{
+  font-size: 3rem;
+  } */
 `
 
 export const Figure = styled.figure`
@@ -62,8 +69,11 @@ font-size: 2rem;
 font-weight: bold;
 
 @media ${device.tabletL}{
-  font-size: 3rem;
+  font-size: 2.5rem;
   }
+/* @media ${device.tabletL}{
+  font-size: 3rem;
+  } */
 
 ` 
 

@@ -21,9 +21,8 @@ export const Figure = styled.figure`
 
   @media ${device.tabletL} {
     height: 350px;
-
-
   }
+ 
 `;
 
 export const InfoWrapper = styled.div`
@@ -46,6 +45,10 @@ export const Title = styled.h3`
   font-size: 2rem;
   
   @media ${device.tabletL} {
+    font-size: 2.5rem;
+
+  }
+  @media ${device.desktop} {
     font-size: 3rem;
 
   }

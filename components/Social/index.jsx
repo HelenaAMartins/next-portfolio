@@ -15,7 +15,7 @@ const Social = () => {
     <Styled.SocialList>
       {social.map(({ name, link }) => (
         <Styled.SocialItem>
-          <Styled.SocialLink href={link}>{icons[name]}</Styled.SocialLink>
+          <Styled.SocialLink target="_blank" rel="noopener noreferrer" href={link}>{icons[name]}</Styled.SocialLink>
         </Styled.SocialItem>
       ))}
     </Styled.SocialList>

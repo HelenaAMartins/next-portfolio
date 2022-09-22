@@ -11,7 +11,7 @@ const Projects = () => (
       <Title
         align="flex-start"
         textAlign="left"
-        title="My Projects"
+        title="Projects"
         subtitle="/* Access my Github repository for complete projects list. */"
       />
       <Styled.Wrapper>
@@ -25,11 +25,21 @@ const Projects = () => (
           responsive={[
             
             {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                initialSlide: 2,
+                arrows:false
+              }
+            },
+            {
               breakpoint: 1023,
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
                 initialSlide: 2,
+                arrows:false
               },
             },
             {

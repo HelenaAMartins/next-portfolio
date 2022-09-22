@@ -9,6 +9,10 @@ export const MenuList = styled.ul`
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
+  width: 380px;
+    
+  }
+  @media ${device.desktop}{
   width: 500px;
     
   }
@@ -17,6 +21,7 @@ export const MenuList = styled.ul`
 
 export const MenuItem = styled.li`
 text-transform: uppercase;
+font-size: 1.5rem;
 `;
 
 export const MenuLink = styled.a`

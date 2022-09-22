@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../styles/breakpoints";
 
 export const Carousel = styled.div`
   .slick-dots {
@@ -22,14 +23,20 @@ export const ArrowWrapper = styled.button`
   overflow: hidden;
   opacity: 0.85;
   z-index: 5;
-  top: 40%;
+  top: 35%;
+
+  
 
   &.slick-prev{
     left: -5%;
+
+    
   }
 
   &.slick-next{
     right: -5%;
+
+    
   }
 
   &::before {
@@ -41,4 +48,6 @@ export const ArrowWrapper = styled.button`
     opacity: 1;
     background-color: ${({ theme }) => theme.colors.cyan};
   }
+
+ 
 `;

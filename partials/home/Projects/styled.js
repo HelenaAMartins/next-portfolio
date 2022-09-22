@@ -9,7 +9,7 @@ export const Projects = styled.section`
     background-color: ${({ theme }) => theme.colors.bgLight};
     position: absolute;
     width: 100%;
-    height: 55%;
+    height: 50%;
 
     bottom: 0;
   }
@@ -18,11 +18,10 @@ export const Projects = styled.section`
     position: relative;
   }
 
-  @media ${device.tabletL} {
+  @media ${device.desktop} {
     height: 60%;
-
-
   }
+  
 `;
 
 export const Wrapper = styled.div`
