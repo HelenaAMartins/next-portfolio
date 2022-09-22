@@ -3,15 +3,13 @@ import { device } from "../../styles/breakpoints";
 
 export const Wrapper = styled.div`
   align-items: ${({ align }) => align || "center"};
-  color: ${({ white, theme }) =>
-    white ? theme.colors.white : theme.colors.secondary};
   display: flex;
   flex-direction: column;
   text-align: ${({ textAlign }) => textAlign || "center"};
 `;
 
 export const Title = styled.h1`
-  color: inherit;
+  color: ${({ theme }) => theme.colors.secondary};
   font-size: 4rem;
   font-weight: 300;
   padding-left: 15px;
@@ -41,7 +39,6 @@ export const Title = styled.h1`
 
 export const Subtitle = styled.p`
   color: ${({ theme }) => theme.colors.tertiary};
-  color: inherit;
   font-size: 1.5rem;
   font-weight: 300;
   margin: 20px 0 45px 0;
