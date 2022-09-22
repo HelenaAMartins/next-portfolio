@@ -5,7 +5,7 @@ import * as Styled from "./styled";
 
 const GetInTouch = () => {
   return (
-    <Section light>
+    <Section light id="contact">
       <Title
         title="Get in touch!"
         subtitle="/* I'm always open to discussing about development or partnerships. */"

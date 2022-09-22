@@ -6,7 +6,6 @@ export const theme = {
     primary: "#ff79c6",
     secondary: "#bd93f9",
     tertiary: "#6272a4",
-    
     offWhite: "#f8f8f2",
     highlight: "#ffb86c",
     highlightHover: "#ed9334",
@@ -15,11 +14,7 @@ export const theme = {
     danger: "#ff5555",
     warning: "#f1fa8c",
     success: "#50fa7b",
-
-    
-    
     cyan: "#8be9fd",
-
     button: {
       default: "#50fa7b",
       hover: "#2bd556",

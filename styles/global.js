@@ -1,15 +1,15 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   *,
   *::after,
   *::before {
+    -webkit-font-smoothing: antialiased;
+    border: 0;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 0;
     text-rendering: geometricPrecision;
-    -webkit-font-smoothing: antialiased;
   }
   html {
     font-size: 10px;
@@ -20,8 +20,8 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
   body {
-    background-color: ${({theme}) => theme.colors.bg};
-    font-family: ${({theme}) => theme.fontFamily};
+    background-color: ${({ theme }) => theme.colors.bg};
+    font-family: ${({ theme }) => theme.fontFamily};
     font-size: 16px;
     overflow-x: hidden;
   }
@@ -38,4 +38,4 @@ export default createGlobalStyle`
   li {
     list-style: none;
   }
-`
+`;

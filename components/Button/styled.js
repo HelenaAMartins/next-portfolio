@@ -21,15 +21,14 @@ const buttonDark = css`
 
 export const Button = styled.button`
   ${({ dark }) => (dark ? buttonDark : buttonLight)}
-
-  text-align: center;
   border-radius: 45px;
+  cursor: pointer;
+  font-family: ${({ theme }) => theme.fontFamily};
   font-size: ${({ small }) => (small ? "1.5rem" : "2rem")};
   font-weight: 300;
-  font-family: ${({ theme }) => theme.fontFamily};
-  padding: ${({ small }) => (small ? "10px 20px" : "10px 25px")};
   min-width: 120px;
+  padding: ${({ small }) => (small ? "10px 20px" : "10px 25px")};
+  text-align: center;
   text-transform: ${({ uppercase }) => (uppercase ? "uppercase" : "")};
-  cursor: pointer;
   transition: all 0.5s;
 `;

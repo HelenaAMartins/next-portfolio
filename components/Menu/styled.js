@@ -4,38 +4,35 @@ import { device } from "../../styles/breakpoints";
 export const MenuList = styled.ul`
   display: none;
 
-  @media ${device.tabletL}{
+  @media ${device.tabletL} {
     display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 100%;
-  width: 380px;
-    
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 380px;
   }
-  @media ${device.desktop}{
-  width: 500px;
-    
+  @media ${device.desktop} {
+    width: 500px;
   }
-
 `;
 
 export const MenuItem = styled.li`
-text-transform: uppercase;
-font-size: 1.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 `;
 
 export const MenuLink = styled.a`
   color: ${({ theme }) => theme.colors.primary};
   opacity: 0.8;
-  transition: all .5s;
+  transition: all 0.5s;
 
   &:visited,
-  &:hover{
+  &:hover {
     color: ${({ theme }) => theme.colors.primary};
     opacity: 1;
   }
 
   &:active {
-    border-bottom: 2px solid ${({theme}) => theme.colors.primary};
+    border-bottom: 2px solid ${({ theme }) => theme.colors.primary};
   }
 `;

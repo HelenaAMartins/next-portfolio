@@ -1,21 +1,16 @@
 [
   {
-    "link":"",
-    "name": "about" ,
-    "target": "_self"
-  },
-  {
-    "link":"",
+    "link":"#experience",
     "name": "experience" ,
     "target": "_self"
   },
   {
-    "link":"",
+    "link":"#projects",
     "name": "projects" ,
     "target": "_self"
   },
   {
-    "link":"",
+    "link":"#contact",
     "name": "contact" ,
     "target": "_self"
   }

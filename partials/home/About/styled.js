@@ -2,32 +2,30 @@ import styled from "styled-components";
 import { colors } from "../../../styles/variables";
 
 export const Grid = styled.div`
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  
 
   @media screen and (min-width: 768px) {
     display: grid;
-  grid-gap: 80px;
-  grid-template-columns: 250px 1fr;
- 
+    grid-gap: 80px;
+    grid-template-columns: 250px 1fr;
   }
   @media screen and (min-width: 1024px) {
     display: grid;
-  grid-gap: 80px;
-  grid-template-columns: 550px 1fr;
+    grid-gap: 80px;
+    grid-template-columns: 550px 1fr;
   }
 `;
 
 export const Figure = styled.figure`
-width: 100%;
-margin-bottom: 50px;
+  margin-bottom: 50px;
+  width: 100%;
 
-@media screen and (min-width: 768px){
-  margin-bottom: 0;
-}
-`
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
+`;
 export const TextDiv = styled.div`
   display: flex;
   flex-direction: column;
@@ -36,14 +34,14 @@ export const TextDiv = styled.div`
 
 export const Text = styled.p`
   color: ${colors.black};
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 2.3rem;
-  font-size: 1.5rem;
-  
-  @media screen and (min-width: 768px){
-    margin-bottom: 0;
+
+  @media screen and (min-width: 768px) {
     font-size: 2rem;
-}
+    margin-bottom: 0;
+  }
 `;
 
 export const SocialWrapper = styled.div`

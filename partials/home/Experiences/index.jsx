@@ -9,7 +9,7 @@ import { store } from "../../../store";
 const Experiences = ({ align }) => {
   const { openModal } = store();
   return (
-    <Section>
+    <Section id="experience">
       <Title
         title="Experience"
         subtitle="/* Download my resume for complete experiences list. */"

@@ -6,7 +6,7 @@ import projects from "./data.json";
 import * as Styled from "./styled";
 
 const Projects = () => (
-  <Styled.Projects>
+  <Styled.Projects id="projects">
     <Container>
       <Title
         align="flex-start"

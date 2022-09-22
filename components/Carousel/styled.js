@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { device } from "../../styles/breakpoints";
 
 export const Carousel = styled.div`
   .slick-dots {
@@ -13,30 +12,24 @@ export const Carousel = styled.div`
 `;
 
 export const ArrowWrapper = styled.button`
-  border-radius: 50%;
-  background-color: ${({ theme }) => theme.colors.cyan};
-  display: flex;
   align-items: center;
-  width: 30px;
+  background-color: ${({ theme }) => theme.colors.cyan};
+  border-radius: 50%;
+  display: flex;
   height: 30px;
   justify-content: center;
-  overflow: hidden;
   opacity: 0.85;
-  z-index: 5;
+  overflow: hidden;
   top: 35%;
+  width: 30px;
+  z-index: 5;
 
-  
-
-  &.slick-prev{
+  &.slick-prev {
     left: -5%;
-
-    
   }
 
-  &.slick-next{
+  &.slick-next {
     right: -5%;
-
-    
   }
 
   &::before {
@@ -48,6 +41,4 @@ export const ArrowWrapper = styled.button`
     opacity: 1;
     background-color: ${({ theme }) => theme.colors.cyan};
   }
-
- 
 `;
