@@ -1,11 +1,17 @@
 import styled from "styled-components";
+import { device } from "../../styles/breakpoints";
 
 export const MenuList = styled.ul`
-  display: flex;
+  display: none;
+
+  @media ${device.tabletL}{
+    display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
   width: 500px;
+    
+  }
 
 `;
 

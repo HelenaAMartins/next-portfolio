@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../../styles/breakpoints";
 
 export const Projects = styled.section`
   padding: 100px 0;
@@ -8,12 +9,19 @@ export const Projects = styled.section`
     background-color: ${({ theme }) => theme.colors.bgLight};
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: 55%;
+
     bottom: 0;
   }
 
   > div {
     position: relative;
+  }
+
+  @media ${device.tabletL} {
+    height: 60%;
+
+
   }
 `;
 

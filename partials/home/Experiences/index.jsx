@@ -11,7 +11,7 @@ const Experiences = ({ align }) => {
   return (
     <Section>
       <Title
-        title="My Experiences"
+        title="Experience"
         subtitle="/* Download my resume for complete experiences list. */"
       />
       <Styled.Wrapper>

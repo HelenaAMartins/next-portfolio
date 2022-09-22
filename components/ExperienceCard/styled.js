@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import { device } from "../../styles/breakpoints";
 
 
 export const ExperienceWrapper = styled.div`
 background-color: ${({theme}) => theme.colors.bgLight};
-display: grid;
-grid-gap: 60px;
+display: flex;
+flex-direction: column-reverse;
+grid-gap: 30px;
 align-items: center;
 justify-content: flex-start;
 grid-template-columns: 300px 150px auto;
@@ -19,13 +21,22 @@ color: ${({theme}) => theme.colors.white};
 :hover {
   border: 1px solid ${({theme}) => theme.colors.tertiary};
 }
+
+@media ${device.tabletL}{
+  display: grid;
+  grid-gap: 60px;
+  }
 `
 
 export const Date = styled.h4`
 color: ${({theme}) => theme.colors.offWhite};
 font-weight: bold;
 text-align: center;
-font-size: 3rem;
+font-size: 2rem;
+
+@media ${device.tabletL}{
+  font-size: 3rem;
+  }
 `
 
 export const Figure = styled.figure`
@@ -38,12 +49,21 @@ export const Figure = styled.figure`
 export const RolePlaceWrapper = styled.div`
 display: flex;
 flex-direction: column;
+text-align: center;
+
+@media ${device.tabletL}{
+  text-align: start;
+  }
 
 ` 
 export const Role = styled.h4`
 
-font-size: 3rem;
+font-size: 2rem;
 font-weight: bold;
+
+@media ${device.tabletL}{
+  font-size: 3rem;
+  }
 
 ` 
 
