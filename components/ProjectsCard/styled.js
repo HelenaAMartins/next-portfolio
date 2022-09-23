@@ -11,17 +11,12 @@ export const ProjectWrapper = styled.div`
 `;
 
 export const Figure = styled.figure`
-  height: 235px;
   position: relative;
-  width: 100% ;
+  width: 100%;
 
-  &>span {
+  & > span {
     height: 100%;
   }
-
-  @media ${device.tabletL} {
-    height: 350px;
-  } 
 `;
 
 export const InfoWrapper = styled.div`
@@ -30,7 +25,7 @@ export const InfoWrapper = styled.div`
   flex-direction: column;
   height: 100%;
   justify-content: flex-start;
-  
+
   @media ${device.tabletL} {
     padding: 0 20px;
   }
@@ -41,7 +36,7 @@ export const Title = styled.h3`
   font-size: 2rem;
   font-weight: 600;
   padding: 20px 0;
-  
+
   @media ${device.tabletL} {
     font-size: 2.5rem;
   }
