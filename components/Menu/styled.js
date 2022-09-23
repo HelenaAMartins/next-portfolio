@@ -11,8 +11,9 @@ export const MenuList = styled.ul`
     max-width: 100%;
     width: 380px;
   }
+  
   @media ${device.desktop} {
-    width: 500px;
+    width: 450px;
   }
 `;
 
