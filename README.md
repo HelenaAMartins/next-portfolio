@@ -9,6 +9,8 @@ I am a front-end developer, based in São Paulo, Brazil. My main skills are HTML
 This is a personal project that aims to be a portfolio of the developer, where there are the main work experiences listed on a section, the main projects on other section, a contact form and a download CV button, which allows downloading my resume both in Portuguese and in English.
 
 This was a React and [NextJs](https://nextjs.org) project, made using Styled-components.
+Sending contact form data is handled by nodeMail. You may see how it was made [here](https://github.com/HelenaAMartins/node-sendmail).
+Both portfolio and nodeMail server were deployed on [Vercel](https://vercel.com) 
 
 Click [here](https://mhelena.com.br) to live preview.
 
