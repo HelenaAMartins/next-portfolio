@@ -41,28 +41,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800&display=swap"
             rel="stylesheet"
           />
-          <link rel="icon" href="/favicon.png" />
-          <title>Helena Martins Portfolio</title>
-          <meta
-            name="description"
-            content="Helena Martins is a front-end developer, based in São Paulo, Brazil. She works with HTML, CSS, Javascript and React and Typescript."
-          />
-          <meta property="og:locale" content="pt_BR" />
-          <meta property="og:title" content="Helena Martins Portfolio" />
-          <meta
-            property="og:site_name"
-            content="Helena Martins Portfolio"
-          />
-          <meta
-            property="og:description"
-            content="Helena Martins is a front-end developer, based in São Paulo, Brazil. She works with HTML, CSS, Javascript and React and Typescript."
-          />
-          <meta property="og:image" content="/share.png" />
-          <meta property="og:type" content="website" />
-          <meta
-            name="google-site-verification"
-            content="DleOk1d92lbAQOs4kh6TCe78TXIHuUc7f0ZxYMJySm4"
-          />
+          <link rel="icon" href="/favicon.png" />          
         </Head>
         <body>
           <Main />
