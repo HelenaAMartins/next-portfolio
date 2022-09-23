@@ -41,6 +41,7 @@ npm run dev
 - Theme colours inspired by [Dracula Theme](https://draculatheme.com)
 - Icon from [Font awesome](https://fontawesome.com/icons)
 - Fonts by [Google Fonts](https://fonts.google.com)
+- Hero image by [Florian Olivo](https://unsplash.com/@florianolv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 # To do
 - [ ] Add Typescript to the project
