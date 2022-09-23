@@ -77,9 +77,13 @@ export const Link = styled.a`
   color: ${({ theme }) => theme.colors.cyan};
   position: relative;
   display: none;
-  
+
   @media ${device.laptop} {
    display: inline-block;
+  }
+
+  &:visited {
+    color: ${({ theme }) => theme.colors.cyan};
   }
 
   &::before {
