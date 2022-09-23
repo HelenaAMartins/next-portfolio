@@ -1,20 +1,23 @@
-[ {
-  "date": "2022 - Present",
-  "thumbnail": "/images/magna.jpg",
-  "role": "Junior Front-end Developer",
-  "place": "Magna, São Paulo - SP (hibrid)"
-}, 
+[
+  {
+    "date": "2022 - Present",
+    "thumbnail": "/images/magna.jpg",
+    "role": "Junior Front-end Developer",
+    "place": "Magna, São Paulo - SP (hibrid)",
+    "link": "https://www.magnasistemas.com.br/wps/portal/internet"
+  },
   {
     "date": "2022 - Present",
     "thumbnail": "/images/lacrei.jpg",
     "role": "Front-end Developer (Volunteer)",
-    "place": "Lacrei, São Paulo - SP (remote)"
+    "place": "Lacrei, São Paulo - SP (remote)",
+    "link": "https://www.portallacrei.com.br"
   },
   {
     "date": "2021 - 2022",
     "thumbnail": "/images/outroll.jpg",
     "role": "Junior Front-end Developer",
-    "place": "Outroll, Melbourne - Australia (remote)"
+    "place": "Outroll, Melbourne - Australia (remote)",
+    "link": "https://outroll.com"
   }
- 
 ]

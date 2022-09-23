@@ -25,6 +25,12 @@ export const ExperienceWrapper = styled.div`
     grid-gap: 60px;
     grid-template-columns: 165px 85px auto;
   }
+
+  @media ${device.laptop} {
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: 165px 85px 1fr auto;
+  }
 `;
 
 export const Date = styled.h4`
@@ -66,3 +72,28 @@ export const Role = styled.h4`
 export const Place = styled.p`
   color: ${({ theme }) => theme.colors.highlight};
 `;
+
+export const Link = styled.a`
+  color: ${({ theme }) => theme.colors.cyan};
+  position: relative;
+  display: none;
+  
+  @media ${device.laptop} {
+   display: inline-block;
+  }
+
+  &::before {
+    background-color:  ${({ theme }) => theme.colors.cyan};
+    content: "";
+    height: 2px;
+    position: absolute;
+    top: 20px;
+    transition: all .5s;
+    width: 0;
+  }
+
+  &:hover:before{
+      width: 100%;
+    }
+  
+`
