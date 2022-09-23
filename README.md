@@ -47,3 +47,4 @@ npm run dev
 - [ ] Add Typescript to the project
 - [ ] Add Storybook to the project
 - [ ] Add unitary tests to the project
+- [ ] Improve accessibility and add light theme
