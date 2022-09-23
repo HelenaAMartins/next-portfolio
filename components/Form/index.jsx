@@ -58,7 +58,7 @@ const Form = () => {
       <Styled.TextArea
         rows="10"
         required
-        placeholder="What you want to say..."
+        placeholder="Your message here"
         value={formData.message}
         onChange={(e) =>
           setFormData({
