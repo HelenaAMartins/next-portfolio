@@ -49,10 +49,11 @@ export const HeroTitle = styled.h1`
 `;
 
 export const Role = styled.h2`
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
+  margin-bottom: 15px;
 
-  @media ${device.tabletL} {
+  @media ${device.laptop} {
     font-size: 5rem;
   }
 `;
