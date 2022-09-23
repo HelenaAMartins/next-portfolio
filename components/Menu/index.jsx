@@ -5,7 +5,7 @@ const Menu = () => {
   return (
     <Styled.MenuList>
       {menuLinks.map(({ name, link, target }) => (
-        <Styled.MenuItem>
+        <Styled.MenuItem key={`menu-${name}`}>
           <Styled.MenuLink href={link} target={target}>{name}</Styled.MenuLink>
         </Styled.MenuItem>
       ))}
