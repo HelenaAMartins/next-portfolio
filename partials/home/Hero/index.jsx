@@ -10,7 +10,7 @@ const Hero = () => {
           <Styled.HeroTitle>Lena Tins</Styled.HeroTitle>
           <Styled.Role>Junior Front-end Developer</Styled.Role>
         <Styled.Description>
-          I'm Helena Martins, front-end developer based in São Paulo, Brazil, focused on React and Vue.
+          I'm Helena Martins, front-end developer based in São Paulo, Brazil, focused on React and NextJs.
         </Styled.Description>
         </Styled.HeroInfoWrapper>
       </Container>
