@@ -2,6 +2,7 @@ export const theme = {
   fontFamily: "Inter, sans-serif",
   colors: {
     bg: "#282a36",
+    bgGradient: "linear-gradient(280deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%)",
     bgLight: "#44475a",
     primary: "#ff79c6",
     secondary: "#bd93f9",
