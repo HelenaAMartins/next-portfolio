@@ -13,6 +13,7 @@ export const ProjectWrapper = styled.div`
 export const Figure = styled.figure`
   position: relative;
   width: 100%;
+  background-color: ${({theme}) => theme.colors.offWhite};
 
   & > span {
     height: 100%;
