@@ -16,8 +16,8 @@ const Modal = () => {
         <Styled.Body>
           <Styled.Message>root@127.0.0.1 <span>~</span></Styled.Message>
           <Styled.ButtonWrapper>
-            <a href="helena-cv-portugues.pdf" download><Button small>Português</Button></a>
-            <a href="helena-cv-portugues.pdf" download><Button small>English</Button></a>
+            <a href="helena-martins-cv.pdf" download><Button small>Português</Button></a>
+            <a href="helena-martins-resume.pdf" download><Button small>English</Button></a>
           </Styled.ButtonWrapper>
         </Styled.Body>
       </Styled.Modal>
