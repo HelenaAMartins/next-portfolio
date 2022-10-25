@@ -50,3 +50,4 @@ npm run dev
 - [ ] Add Storybook to the project
 - [ ] Add unitary tests to the project
 - [ ] Improve accessibility and add light theme
+- [X] Fetch data from a CMS
