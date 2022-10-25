@@ -7,7 +7,7 @@ const Layout = ({ children }) => (
     <Modal />
     <MainNav />
     {children}
-    <Footer />
+    <Footer/>
   </>
 );
 

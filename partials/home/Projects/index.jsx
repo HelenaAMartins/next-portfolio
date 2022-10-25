@@ -2,10 +2,9 @@ import Carousel from "../../../components/Carousel";
 import Container from "../../../components/Container";
 import ProjectsCard from "../../../components/ProjectsCard";
 import Title from "../../../components/Title";
-import projects from "./data.json";
 import * as Styled from "./styled";
 
-const Projects = () => (
+const Projects = ({projects}) => (
   <Styled.Projects id="projects">
     <Container>
       <Title

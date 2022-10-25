@@ -2,11 +2,10 @@ import Button from "../../../components/Button";
 import ExperienceCard from "../../../components/ExperienceCard";
 import Section from "../../../components/Section";
 import Title from "../../../components/Title";
-import companies from "./data.json";
 import * as Styled from "./styled";
 import { store } from "../../../store";
 
-const Experiences = ({ align }) => {
+const Experiences = ({ align, exps }) => {
   const { openModal } = store();
   return (
     <Section id="experience">
@@ -15,7 +14,7 @@ const Experiences = ({ align }) => {
         subtitle="/* Download my resume for complete experiences list. */"
       />
       <Styled.Wrapper>
-        {companies.map((item, id) => (
+        {exps.map((item, id) => (
           <ExperienceCard data={item} key={`company-${id}`} />
         ))}
       </Styled.Wrapper>

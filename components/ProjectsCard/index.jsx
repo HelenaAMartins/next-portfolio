@@ -8,7 +8,7 @@ const ExperienceCard = ({ data }) => {
     <Styled.ProjectWrapper>
       <Styled.Figure>
 
-      <Image src={thumbnail} layout="responsive" width="400" height="350"/>
+      <Image src={`https://gzk9bkt2.directus.app/assets/${thumbnail.filename_disk}`} layout="responsive" width="400" height="350"/>
       </Styled.Figure>
       <Styled.InfoWrapper>
         <Styled.Title>{`${title}`}</Styled.Title>

@@ -79,7 +79,7 @@ export const Link = styled.a`
   display: none;
 
   @media ${device.laptop} {
-   display: inline-block;
+    display: inline-block;
   }
 
   &:visited {
@@ -87,17 +87,16 @@ export const Link = styled.a`
   }
 
   &::before {
-    background-color:  ${({ theme }) => theme.colors.cyan};
+    background-color: ${({ theme }) => theme.colors.cyan};
     content: "";
     height: 2px;
     position: absolute;
     top: 20px;
-    transition: all .5s;
+    transition: all 0.5s;
     width: 0;
   }
 
-  &:hover:before{
-      width: 100%;
-    }
-  
-`
+  &:hover:before {
+    width: 100%;
+  }
+`;
