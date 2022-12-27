@@ -5,6 +5,7 @@ import Container from "../Container";
 import * as Styled from "./styled";
 import { store } from "../../store";
 import { Logo } from "../../icons";
+import Link from "../Link";
 
 const MainNav = () => {
   const { openModal } = store();
@@ -12,7 +13,9 @@ const MainNav = () => {
     <Styled.Header>
       <Container>
         <Styled.HeaderWrapper>
-          <Logo />
+          <Link href="/">
+            <Logo />
+          </Link>
           <Menu />
           <Button small uppercase onClick={() => openModal()}>
             Download CV

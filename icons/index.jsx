@@ -39,6 +39,18 @@ export const Linkedin = ({ color }) => (
   </SvgIcon>
 );
 
+export const Facebook = ({ color }) => (
+  <SvgIcon color={color} viewBox="0 0 320 512" width="20" height="20">
+    <path d="m279.14 288 14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+  </SvgIcon>
+);
+
+export const Camera = ({ color }) => (
+  <SvgIcon color={color} viewBox="0 0 320 512" width="20" height="15">
+    <path d="M149.1 64.8 138.7 96H64c-35.3 0-64 28.7-64 64v256c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64h-74.7l-10.4-31.2C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 384c-53 0-96-43-96-96s43-96 96-96 96 43 96 96-43 96-96 96z" />
+  </SvgIcon>
+);
+
 export const Arrow = ({ color, right = false }) => (
   <SvgIcon color={color} viewBox="0 0 320 512" width="20" height="20">
     {right ? (

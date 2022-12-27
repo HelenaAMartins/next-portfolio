@@ -1,18 +1,22 @@
 [
   {
-    "link":"#experience",
-    "name": "experience" ,
+    "link": "/#experience",
+    "name": "experience",
     "target": "_self"
   },
   {
-    "link":"#projects",
-    "name": "projects" ,
+    "link": "/#projects",
+    "name": "projects",
     "target": "_self"
   },
   {
-    "link":"#contact",
-    "name": "contact" ,
+    "link": "/blog",
+    "name": "blog",
+    "target": "_self"
+  },
+  {
+    "link": "#contact",
+    "name": "contact",
     "target": "_self"
   }
-
 ]

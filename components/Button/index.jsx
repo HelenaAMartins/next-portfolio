@@ -1,6 +1,14 @@
 import * as Styled from "./styled";
 
-const Button = ({children, dark, weight, small, uppercase, onClick, type }) => (
+const Button = ({
+  children,
+  dark,
+  weight,
+  small,
+  uppercase,
+  onClick,
+  type,
+}) => (
   <Styled.Button
     weight={weight || "200"}
     small={small}

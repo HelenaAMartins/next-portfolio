@@ -11,7 +11,7 @@ export const MenuList = styled.ul`
     max-width: 100%;
     width: 380px;
   }
-  
+
   @media ${device.desktop} {
     width: 450px;
   }
@@ -26,6 +26,7 @@ export const MenuLink = styled.a`
   color: ${({ theme }) => theme.colors.primary};
   opacity: 0.8;
   transition: all 0.5s;
+  cursor: pointer;
 
   &:visited,
   &:hover {

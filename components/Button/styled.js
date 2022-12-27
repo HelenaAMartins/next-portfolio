@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import { device } from "../../styles/breakpoints";
 
 const buttonLight = css`
   background-color: ${({ theme }) => theme.colors.button.default};
