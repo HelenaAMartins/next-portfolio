@@ -1,6 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import { useTheme } from "styled-components";
+import Breadcrumbs from "../../../components/Breadcrumbs";
 
 import Container from "../../../components/Container";
 import Link from "../../../components/Link";
@@ -12,10 +13,16 @@ import Share from "../Share";
 import * as Styled from "./styled";
 
 const Article = ({ data, categories }) => {
+  const routes = [
+    { path: "/", breadcrumb: "Home" },
+    { path: "/blog", breadcrumb: "Blog" },
+    { path: "", breadcrumb: `${data?.title}` },
+  ];
   const { colors } = useTheme();
   return (
     <Styled.Article id="article">
       <HeroImage image={data?.image} />
+      <Breadcrumbs items={routes} />
       <Container>
         <Styled.GridInfo>
           <Styled.WrapperTitle>

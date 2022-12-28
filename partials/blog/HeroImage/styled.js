@@ -4,7 +4,6 @@ export const Hero = styled.div`
   height: 450px;
   width: 100%;
   overflow: hidden;
-  margin-bottom: 40px;
   position: relative;
 
   & > span {

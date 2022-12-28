@@ -21,7 +21,7 @@ export const WrapperTitle = styled.div``;
 export const Title = styled.h2`
   color: ${({ theme }) => theme.colors.cyan};
   font-weight: 70rem;
-  margin-bottom: 3rem;
+  margin: 3rem 0;
   font-size: 4.5rem;
   line-height: 6.1rem;
 `;
