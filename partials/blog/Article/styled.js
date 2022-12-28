@@ -104,11 +104,10 @@ export const Wysiwyg = styled.div`
   code {
     background-color: black;
     color: ${({ theme }) => theme.colors.highlight};
-    white-space: nowrap;
   }
 
   pre code {
-    white-space: inherit;
+    white-space: pre-wrap;
   }
 
   pre {
@@ -131,7 +130,9 @@ export const Wysiwyg = styled.div`
 `;
 
 export const SideBar = styled.aside`
-  margin-left: 16px;
+  @media ${device.tabletL} {
+    margin-left: 16px;
+  }
 `;
 
 export const CatWrapper = styled.div`

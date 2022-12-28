@@ -16,6 +16,6 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.p`
-  color: ${({ theme }) => theme.colors.cyan};
+  color: ${({ theme }) => theme.colors.offWhite};
   padding-right: 1rem;
 `;

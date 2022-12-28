@@ -4,16 +4,13 @@ import Seo from "../../components/Seo";
 import Article from "../../partials/blog/Article";
 import GetInTouch from "../../partials/home/GetInTouch";
 
-const BlogSingle = ({ article, categories }) => {
-  console.log(categories);
-  return (
-    <Layout>
-      <Seo />
-      <Article data={article} categories={categories} />
-      <GetInTouch />
-    </Layout>
-  );
-};
+const BlogSingle = ({ article, categories }) => (
+  <Layout>
+    <Seo />
+    <Article data={article} categories={categories} />
+    <GetInTouch />
+  </Layout>
+);
 
 export async function getServerSideProps({ query: { slug } }) {
   const dataArticle = await fetch(

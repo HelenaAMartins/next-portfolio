@@ -27,7 +27,7 @@ export async function getServerSideProps() {
     "https://gzk9bkt2.directus.app/items/projects?fields=*.*"
   ).then((resp) => resp.json());
   const dataBlog = await fetch(
-    "https://gzk9bkt2.directus.app/items/blog?fields=*.*"
+    "https://gzk9bkt2.directus.app/items/blog?fields=*.*&sort=-date_created"
   ).then((resp) => resp.json());
 
   return {
