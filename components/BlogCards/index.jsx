@@ -10,7 +10,7 @@ const BlogCard = ({ data }) => {
   return (
     <Styled.BlogWrapper>
       <Styled.Figure>
-        <Link href={`blog/${data?.slug}`}>
+        <Link href={`/blog/${data?.slug}`}>
           <Image
             src={`https://gzk9bkt2.directus.app/assets/${image.filename_disk}`}
             layout="responsive"
@@ -28,14 +28,14 @@ const BlogCard = ({ data }) => {
         <Styled.ReadTime>{readingTime(data?.body)}</Styled.ReadTime>
       </Styled.SmallInfoWrapper>
       <Styled.InfoWrapper>
-        <Link href={`blog/${data?.slug}`}>
+        <Link href={`/blog/${data?.slug}`}>
           <Styled.Title>{`${title}`}</Styled.Title>
         </Link>
         <Styled.Excerpt>{data?.excerpt}</Styled.Excerpt>
       </Styled.InfoWrapper>
       <Styled.ButtonsWrapper>
         <Styled.Date>{maskDate(data?.date_created)}</Styled.Date>
-        <Link href={`blog/${data?.slug}`}>
+        <Link href={`/blog/${data?.slug}`}>
           <Button small dark>
             Read more
           </Button>

@@ -19,7 +19,9 @@ export const InfoWrapper = styled.div`
   padding-left: 1rem;
 `;
 
-export const Author = styled.h4``;
+export const Author = styled.h4`
+  color: ${({ theme }) => theme.colors.offWhite};
+`;
 
 export const DateTime = styled.span`
   font-size: 1.2rem;

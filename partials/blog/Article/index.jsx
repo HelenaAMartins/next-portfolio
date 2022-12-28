@@ -29,12 +29,14 @@ const Article = ({ data, categories }) => {
             <ReactMarkdown rehypePlugins={[rehypeRaw]}>
               {data?.body}
             </ReactMarkdown>
-            <Styled.Credits>
-              <Camera color={colors.offWhite} />
-              <ReactMarkdown rehypePlugins={[rehypeRaw]}>
-                {data?.credits}
-              </ReactMarkdown>
-            </Styled.Credits>
+            {data?.credits && (
+              <Styled.Credits>
+                <Camera color={colors.offWhite} />
+                <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+                  {data?.credits}
+                </ReactMarkdown>
+              </Styled.Credits>
+            )}
           </Styled.Wysiwyg>
           <Styled.SideBar>
             <Styled.CatWrapper>
