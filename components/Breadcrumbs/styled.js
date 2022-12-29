@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.bgLight};
   padding: 1rem 0;
   display: none;
+  margin-bottom: 20px;
 
   @media ${device.tabletL} {
     display: flex;
@@ -22,6 +23,7 @@ export const List = styled.ul`
 
 export const Item = styled.li`
   color: ${({ theme }) => theme.colors.tertiary};
+  transition: all 0.5s;
 
   a {
     position: relative;

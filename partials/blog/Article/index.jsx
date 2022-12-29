@@ -7,6 +7,7 @@ import Container from "../../../components/Container";
 import Link from "../../../components/Link";
 import { Camera } from "../../../icons";
 import AuthorDateInfo from "../AuthorDateInfo";
+import Comments from "../Comments";
 import HeroImage from "../HeroImage";
 import Share from "../Share";
 
@@ -44,6 +45,7 @@ const Article = ({ data, categories }) => {
                 </ReactMarkdown>
               </Styled.Credits>
             )}
+            <Comments data={data} />
           </Styled.Wysiwyg>
           <Styled.SideBar>
             <Styled.CatWrapper>

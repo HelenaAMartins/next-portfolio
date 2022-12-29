@@ -5,7 +5,7 @@ export const Articles = styled.section`
   padding-bottom: 50px;
 
   @media ${device.tabletL} {
-    padding: 100px 0;
+    padding: 35px 0 100px;
   }
 `;
 
