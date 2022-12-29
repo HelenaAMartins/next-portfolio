@@ -5,7 +5,7 @@ import Link from "../Link";
 import { maskDate, readingTime } from "../../utils";
 
 const BlogCard = ({ data }) => {
-  const { image, title, category } = data;
+  const { image, title, category, slug, excerpt, date_created, body } = data;
 
   return (
     <Styled.BlogWrapper>
@@ -21,21 +21,19 @@ const BlogCard = ({ data }) => {
       </Styled.Figure>
       <Styled.SmallInfoWrapper>
         <Styled.Category>
-          <Link href={`/category/${data?.category?.slug}`}>
-            {data?.category?.title}
-          </Link>
+          <Link href={`/category/${category?.slug}`}>{category?.title}</Link>
         </Styled.Category>
-        <Styled.ReadTime>{readingTime(data?.body)}</Styled.ReadTime>
+        <Styled.ReadTime>{readingTime(body)}</Styled.ReadTime>
       </Styled.SmallInfoWrapper>
       <Styled.InfoWrapper>
-        <Link href={`/blog/${data?.slug}`}>
+        <Link href={`/blog/${slug}`}>
           <Styled.Title>{`${title}`}</Styled.Title>
         </Link>
-        <Styled.Excerpt>{data?.excerpt}</Styled.Excerpt>
+        <Styled.Excerpt>{excerpt}</Styled.Excerpt>
       </Styled.InfoWrapper>
       <Styled.ButtonsWrapper>
-        <Styled.Date>{maskDate(data?.date_created)}</Styled.Date>
-        <Link href={`/blog/${data?.slug}`}>
+        <Styled.Date>{maskDate(date_created)}</Styled.Date>
+        <Link href={`/blog/${slug}`}>
           <Button small dark>
             Read more
           </Button>

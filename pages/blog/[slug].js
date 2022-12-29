@@ -6,7 +6,7 @@ import GetInTouch from "../../partials/home/GetInTouch";
 
 const BlogSingle = ({ article, categories }) => (
   <Layout>
-    <Seo />
+    <Seo data={article} />
     <Article data={article} categories={categories} />
     <GetInTouch />
   </Layout>
