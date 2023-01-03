@@ -99,6 +99,12 @@ export const Wysiwyg = styled.div`
 
   a {
     text-decoration: underline;
+    color: ${({ theme }) => theme.colors.highlight};
+    transition: all 0.5s;
+
+    &:hover {
+      color: ${({ theme }) => theme.colors.highlightHover};
+    }
   }
 
   code {
