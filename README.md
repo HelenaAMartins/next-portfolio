@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/9b9fe95bae4785bd71db/maintainability)](https://codeclimate.com/github/HelenaAMartins/next-portfolio/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/9b9fe95bae4785bd71db/test_coverage)](https://codeclimate.com/github/HelenaAMartins/next-portfolio/test_coverage)
+
 # Hi, I'm Helena Martins
 
 I am a front-end developer, based in São Paulo, Brazil. My main skills are HTML, CSS, Javascript and React. I have some knowledge on Typescript as well.
@@ -10,7 +12,7 @@ This is a personal project that aims to be a portfolio of the developer, where t
 
 This was a React and [NextJs](https://nextjs.org) project, made using Styled-components.
 Sending contact form data is handled by nodeMail. You may see how it was made [here](https://github.com/HelenaAMartins/node-sendmail).
-Both portfolio and nodeMail server were deployed on [Vercel](https://vercel.com) 
+Both portfolio and nodeMail server were deployed on [Vercel](https://vercel.com)
 
 Click [here](https://mhelena.com.br) to live preview.
 
@@ -46,8 +48,9 @@ npm run dev
 - Hero image by [Florian Olivo](https://unsplash.com/@florianolv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 # To do
+
 - [ ] Add Typescript to the project
 - [ ] Add Storybook to the project
 - [ ] Add unitary tests to the project
 - [ ] Improve accessibility and add light theme
-- [X] Fetch data from a CMS
+- [x] Fetch data from a CMS
