@@ -15,6 +15,39 @@ const ArrowNav = ({ right, ...props }) => {
 
 const Carousel = ({ children, ...props }) => {
   const settings = {
+    autoplay: false,
+    centerPadding: "20px",
+    dots: false,
+    slidesToScroll: 3,
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          initialSlide: 2,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
     ...props,
     nextArrow: <ArrowNav right />,
     prevArrow: <ArrowNav />,
