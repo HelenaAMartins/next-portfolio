@@ -10,11 +10,6 @@
     "target": "_self"
   },
   {
-    "link": "/blog",
-    "name": "blog",
-    "target": "_self"
-  },
-  {
     "link": "#contact",
     "name": "contact",
     "target": "_self"

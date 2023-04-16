@@ -9,7 +9,7 @@ const ExperienceCard = ({ data }) => {
       <Styled.Date>{date}</Styled.Date>
       <Styled.Figure height="80" width="80" round>
         <Image
-          src={`https://gzk9bkt2.directus.app/assets/${thumbnail.filename_disk}`}
+          src={`/images/${thumbnail}`}
           layout="responsive"
           width="80"
           height="80"
