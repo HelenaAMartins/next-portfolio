@@ -1,6 +1,13 @@
 export const experiences = [
   {
-    date: "2022 - current",
+    date: "2024 - current",
+    role: "Front-end developer",
+    thumbnail: "outroll.jpg",
+    place: "Outroll",
+    link: "https://outroll.com",
+  },
+  {
+    date: "2022 - 2024",
     role: "Junior Front-end developer",
     thumbnail: "magna.jpg",
     place: "Magna Sistemas",
